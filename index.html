@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title> Page Title </title>
+    <title> <b> Page Title </b> </title>
   </head>
   <body>
     <h1> heading </h1>
@@ -12,6 +12,16 @@
     </p>
     
   </body>
+  <canvas id="myCanvas">
+  Your browser does not support the canvas tag.
+  </canvas>
+
+  <script>
+  var canvas = document.getElementById("myCanvas");
+  var ctx = canvas.getContext("2d");
+  ctx.fillStyle = "#FF0000";
+  ctx.fillRect(0, 0, 80, 80);
+  </script>
 </html>
       
     
